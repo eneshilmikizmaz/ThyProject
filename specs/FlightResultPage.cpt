@@ -1,0 +1,11 @@
+
+#Uçuşlar Listelendiği kontrol edilir
+*"//*[@resource-id=\"com.turkishairlines.mobile:id/frFlightSearch_tvSortAndFilter\"]" id li elementi kontrol et
+
+
+#Ekonomik uçuş seç
+* Uçuş seç "//*[@class=\"androidx.recyclerview.widget.RecyclerView\"]/android.view.ViewGroup/android.widget.FrameLayout"
+* "//*[contains(@text,'EcoFly')]" xpath li elemente tıkla
+
+#Devam butonuna tıklanır
+*"com.turkishairlines.mobile:id/frFlightSearch_btnContinue" id li elemente tıkla

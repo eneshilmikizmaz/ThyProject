@@ -1,0 +1,8 @@
+
+#Pop up kapatılır
+* "com.turkishairlines.mobile:id/frPrivacy_btnAccept" id li elemente tıkla
+* "com.turkishairlines.mobile:id/dgBase_btnPositive" id li elemente tıkla
+# Bilet al butonuna tıkla
+* "com.turkishairlines.mobile:id/acMain_btnBooking" id li elemente tıkla
+
+

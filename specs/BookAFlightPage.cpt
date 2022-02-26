@@ -1,0 +1,33 @@
+
+# Tek yön uçuş seçilir.
+*"com.turkishairlines.mobile:id/frDashboard_tvOneWay" id li elemente tıkla
+
+#Kalkış noktası seç <key>
+*"com.turkishairlines.mobile:id/frDashboard_llFrom" id li elemente tıkla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" id li elemente <key> değerini yaz
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[2]/android.widget.TextView[2]" xpath li elemente tıkla
+
+#Varış noktası seç <key>
+*"com.turkishairlines.mobile:id/frDashboard_llTo" id li elemente tıkla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" id li elemente <key> değerini yaz
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[2]/android.widget.TextView[2]" xpath li elemente tıkla
+
+#Tarih bilgisi günün tarihinden 2 gün sonraya seçilir
+*"com.turkishairlines.mobile:id/frDashboard_rlDeparture" id li elemente tıkla
+*Tarih seçimi yap "//*[@class=\"android.view.ViewGroup\"]/android.view.ViewGroup/android.widget.FrameLayout"
+
+#Tamam butonuna tıklanır.
+*"com.turkishairlines.mobile:id/frDashboard_btnDone" id li elemente tıkla
+
+#Yetişkin Bilgisi 2 kişi olarak seçilir
+*"(//*[@resource-id=\"com.turkishairlines.mobile:id/cvPassengerItem_imPlus\"])[1]" xpath li elemente tıkla
+
+#Uçuş ara butonuna tıklanır
+*"com.turkishairlines.mobile:id/frDashboard_btnSearch" id li elemente tıkla
+
+#Yön bilgisi <saw> to <esb> seçilir
+*Kalkış noktası seç <saw>
+*Varış noktası seç <esb>
+
+
+
